@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The fisrt todo list i built on my own</title>
+  <link rel="stylesheet" href="todo-project.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ 
+  <div class="wrapper">
+    <h2>Todo List App <i class="fa-solid fa-calendar-check"></i></h2>
+    <form id="add-note">
+      <input type="text" id="typing" placeholder="Add note" >
+      <button id="btn">Add</button>
+    </form>
+
+    <div class="content">
+      <ul class="display">
+        <!-- <li>
+          <span>the  first one</span>
+          <i class="fa-solid fa-trash"></i>
+        </li>
+        <li>
+          <span>second one</span>
+          <i class="fa-solid fa-trash"></i>
+        </li>
+        <li>
+          <span>the  third one</span>
+          <i class="fa-solid fa-trash"></i>
+        </li>
+  
+        <li>
+          <span>fourth one</span>
+          <i class="fa-solid fa-trash"></i>
+        </li> -->
+      </ul>
+    </div>
+   
+
+    <form id="search-notes">
+       <input type="text" placeholder="search notes" id="search">
+      <label for="text">hide all</label>
+      <input type="checkbox"  id="hide">
+    </form>
+  </div>
+
+  <script src="todo-project.js"></script>
+  
+
+</body>
+</html>
